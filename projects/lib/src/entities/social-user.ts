@@ -1,11 +1,11 @@
 export class SocialUser {
-  provider: string;
   id: string;
-  email: string;
   name: string;
+  email: string;
+  provider: string;
   photoUrl: string;
-  firstName: string;
   lastName: string;
+  firstName: string;
   authToken: string;
 
   idToken: string; // Reference https://developers.google.com/identity/sign-in/web/backend-auth
